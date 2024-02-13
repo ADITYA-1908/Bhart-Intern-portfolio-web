@@ -367,8 +367,12 @@ body {
     width: 80%;
 }
 
-.progress-line.python span {
+.progress-line.react span {
     width: 50%;
+}
+
+.progress-line.javascript span {
+    width: 60%;
 }
 
 .progress-line.java span {
@@ -400,10 +404,13 @@ body {
     content: "80%";
 }
 
-.progress-line.python span::after {
+.progress-line.react span::after {
     content: "50%";
 }
 
+.progress-line.javascript span::after {
+    content: "60%";
+}
 .progress-line.java span::after {
     content: "75%";
 }
